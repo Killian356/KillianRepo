@@ -46,6 +46,7 @@ header {
     padding-right: 15px;
     padding-bottom: 20px;
     padding-left: 25px;
+    border-radius: 15px;
   }
   
 header a {
@@ -88,7 +89,7 @@ header nav ul li a:hover {
   }
 
   img.rounded-corners {
-    border-radius: 50px;
+    border-radius: 70px;
   }
 
   /* Contact Info Start */
@@ -107,6 +108,8 @@ header nav ul li a:hover {
     padding-bottom: 20px;
     padding-left: 25px;
     margin-top: 30px;
+    border-radius: 15px;
+  
 }
 
 .contact-info h2 {
@@ -117,22 +120,20 @@ header nav ul li a:hover {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.contact-info u1 {
+.contact-info ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    margin: 7px 0;
+    
 }
 
 .contact-info ul li a {
     padding: 10px 15px;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
     color: var(--pop-yellow);
 }
 
@@ -160,7 +161,7 @@ header nav ul li a:hover {
     align-items: flex-start;
     flex: auto;
     text-align: center;
-    width: 35a%;
+    width: 35%;
     margin: 3.5%;
     line-height: 1.2;
     padding: 20px 35px;
@@ -180,7 +181,22 @@ header nav ul li a:hover {
 
 .my-work {
     background-color: var(--dark-red);
-    padding: 20px 35px;
+    border-radius: 15px;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.my-work h2 {
+  font-size: 35px;
+  justify-content: center;
+  border-bottom: 3px solid;
+  margin-bottom: 45px;
+  color: var(--dark-blue);
+  font-style: italic;
+  text-align: center;
 }
 
 .my-work ul {
@@ -195,7 +211,7 @@ header nav ul li a:hover {
     padding: 10px 15px;
     font: bold;
     font-weight: normal;
-    font-size: 1.55vw;
+    font-size: 20px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
@@ -206,11 +222,11 @@ header nav ul li a:hover {
 }
 
 .my-work ul li img {
-  padding: 10px 15px;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  color: var(--pop-yellow);
+  float: left;
+  width: 100%;
+  height: auto;
+  display: flex;
+  border-radius: 70px;
 }
 
 .my-work ul li img:hover {
@@ -228,11 +244,12 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 20px 35px;
+    border-radius: 15px;
 }
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1280px) {
     
     header {
       padding-bottom: 0;
@@ -301,3 +318,4 @@ img {
         text-align: center;
         width: 100%;
       }
+    }
