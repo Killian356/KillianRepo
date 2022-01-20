@@ -17,7 +17,7 @@ https://killian356.github.io/portfolio/
 ![Screenshot](assets/images/kpp5.JPG "portfolio")
 
 ## Contibution
-Yours tuley, Killian Chamberlain
+Yours truley, Killian Chamberlain
 
 ### Killian Chamberlain
 https://github.com/Killian356
